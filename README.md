@@ -6,6 +6,10 @@ Ce repository contient les consignes pour le **TI** de  l'installation de `Symfo
 
 La partie `Docker` vous sera donnée par Magib.
 
+#### Conseils
+
+Commencez par Symfony ou par Docker, mais ne faites pas les deux en même temps si vous n'avancez pas.
+
 ## Gardez ce répertoire ouvert dans un onglet de votre navigateur
 
 ## Site de référence
