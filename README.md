@@ -57,6 +57,8 @@ Créez un répertoire sur github avec le nom `sym64{Votre-prénom}` et envoyer v
 
 ### Dans le `.env` de votre projet, modifiez la ligne suivante :
 
+Ce code est pour la version locale, vous pouvez le modifier pour la version avec `Docker` :
+
 ```bash
 DB_TYPE="mysql"
 # DB_NAME="sym64{Votre-prénom}" # Remplacez {Votre-prénom} par votre 
