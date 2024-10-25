@@ -53,6 +53,8 @@ symfony new sym64{Votre-prénom} --version=lts --webapp
 
 Créez un répertoire sur github avec le nom `sym64{Votre-prénom}` et envoyer vos fichiers sur ce répertoire.
 
+**Attention** : Votre projet doit être envoyé sur github avant la fin du TI, même s'il est complètement dockérisé sur DockerHub par exemple !
+
 ### Dans le `.env` de votre projet, modifiez la ligne suivante :
 
 ```bash
