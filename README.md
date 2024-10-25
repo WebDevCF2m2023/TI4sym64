@@ -329,11 +329,11 @@ Ce **TI** est déjà assez complet (dans le temps qui vous est donné) pour vér
 
 #### Niveaux 3 - 4
 
-- Tentez l'inscription par mail, les commentaires comme sur :
+- Tentez l'inscription par mail, les commentaires par tous les utilisateurs comme sur :
 
 https://sym6.cf2m.be/
 
-- Tout ce que vous souhaitez essayer dans le temps imparti !
+- Tout ce que vous souhaitez essayer dans le temps imparti, mais **après** avoir fait les niveaux précédents.
 
 Installez des Bundles d'administration comme `EasyAdmin` ou `SonataAdmin` pour gérer les `CRUD` plus facilement.
 
