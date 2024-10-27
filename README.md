@@ -6,9 +6,13 @@ Ce repository contient les consignes pour le **TI** de  l'installation de `Symfo
 
 La partie `Docker` vous sera donnée par Magib.
 
+Vous le trouverez dans le fichier `README2.md` de ce repository.
+
 #### Conseils
 
 Commencez par Symfony ou par Docker, mais ne faites pas les deux en même temps si vous n'avancez pas.
+
+Travailler sous `Docker` directement est plus simple, mais sur vos machines, vous pourriez avoir des **ralentissements** pour créer les entités, les migrations, etc.
 
 ## Gardez ce répertoire ouvert dans un onglet de votre navigateur
 
@@ -278,7 +282,7 @@ Mots de passe hachés ! Utilisation de `Slugify` pour le `username`, `Faker` pou
 
 
 #### Il nous faut 160 articles  
-Utilisation de `Faker` pour le titre, puis `slugify` pour TitleSlug à partir du titre, `Faker` pour le texte, une date **entre 6 mois et maintenant** pour la date de **création**, **une date après la date de création pour la date de publication si l'article est publié (3 chances sur 4)** (voir `$faker->dateTimeBetween`), un auteur aléatoire (dans `ROLE_ADMIN` ou `ROLE_REDAC`).
+Utilisation de `Faker` pour le titre, puis `slugify` pour TitleSlug à partir du titre, `Faker` pour le texte, une date **entre 6 mois et maintenant** (voir `$faker->dateTimeBetween()`) pour la date de **création**, **une date après la date de création pour la date de publication si l'article est publié (3 chances sur 4)**, un auteur aléatoire (dans `ROLE_ADMIN` ou `ROLE_REDAC`).
 
 #### Il nous faut 6 sections
 Utilisation de `Faker` pour le titre, puis `slugify` pour SectionSlug à partir du titre, `Faker` pour le texte.
